@@ -6,16 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  // <Layout>
-  //   <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-  //   <h1>Hi people</h1>
-  //   <p>Welcome to your new Gatsby site.</p>
-  //   <p>Now go build something great.</p>
-  //   <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-  //     <Image />
-  //   </div>
-  //   <Link to="/page-2/">Go to page 2</Link>
-  // </Layout>
+  
   <div>
           <form name=" contact" 
                 method="post"
@@ -24,7 +15,7 @@ const IndexPage = () => (
           >
             <input type="text" name="First name" placeholder="name" />
             <input type="text" name="Last Name" placeholder="Last Name" />
-            <input type="text" email="Email" placeholder="email" /> 
+            <input type="email" name="Email" placeholder="email" /> 
             <input type="text" name="Address" placeholder="address" />
             <input type="text" name="Subject" placeholder="subject" />
             <button>Submit</button>
